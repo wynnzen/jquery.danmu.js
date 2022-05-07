@@ -250,6 +250,7 @@ var cyntax = {
         $(element).data("nowTime", 0);
         $(element).data("danmuList", options.danmuList);
         $(element).data("opacity", options.opacity);
+        $(element).data("sumTime", options.sumTime);
         $(element).data("paused", 1);
         $(element).data("topSpace", 0);
         $(element).data("bottomSpace", 0);
@@ -514,7 +515,8 @@ var cyntax = {
         SubtitleProtection: false,
         positionOptimize: false,
         maxCountInScreen: 40,
-        maxCountPerSec: 10
+        maxCountPerSec: 10,
+        isLoop:false
     };
 
 
